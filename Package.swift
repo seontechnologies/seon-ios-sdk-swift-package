@@ -7,6 +7,9 @@ let version = "4.0.0"
 
 let package = Package(
     name: "SeonSDK",
+    platforms: [
+           .iOS(.v11),        
+    ],
     products: [
         .library(
             name: "SeonSDK",
