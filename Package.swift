@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "SeonSDK",
             url: "https://cdn.seon.io/sdk/ios/SeonSDK/\(version)/SeonSDK-\(version)-xcfw.zip",
-            checksum: "56c10fb719370055a39d4efd207e0e4c18bd74e25c90a112f095278ecb2abd72"
+            checksum: "554756711bf17df0ce5ab7d50ad0eaffe831c5accd8dbe01078b6e9ebe85c21f"
         )
     ]
 )
