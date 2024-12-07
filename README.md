@@ -5,6 +5,21 @@ The SEON Device Fingerprinting SDK for iOS will collect information based on the
 This library is also distributed as a Cocoapods package:
 https://github.com/seontechnologies/seon-ios-sdk-public
 
+
+## Known Issues
+If you're using Swift Package Manager with an SDK version ranging from `5.2.0`-`5.4.2` and you encounter an error related to the revision id not matching the previously recorded value, then you should delete the Swift security fingerprint cache for this library.
+
+You should delete the `seon-ios-sdk-swift-package-{commit-hash}.json` file located at:
+ `~/Library/org.swift.swiftpm/security/fingerprints`
+
+You could also delete the caches if needed:
+
+`rm -rf ~/Library/Caches/org.swift.swiftpm`
+
+Or you can delete every fingerprint (not advised):
+
+`rm -rf ~/Library/org.swift.swiftpm/security/fingerprints`
+
 ## Installation
    
 1. Add the following repository as a dependency to your project:
