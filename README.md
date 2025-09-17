@@ -7,6 +7,8 @@ https://github.com/seontechnologies/seon-ios-sdk-public
 
 
 ## Known Issues
+To be compatible with **iOS 26**, please update to at least version `5.6.2`! Please see https://github.com/seontechnologies/seon-ios-sdk-public#562 for more information.
+<hr>
 If you're using Swift Package Manager with an SDK version ranging from `5.2.0`-`5.4.2` and you encounter an error related to the revision id not matching the previously recorded value, then you should delete the Swift security fingerprint cache for this library.
 
 You should delete the `seon-ios-sdk-swift-package-{commit-hash}.json` file located at:
