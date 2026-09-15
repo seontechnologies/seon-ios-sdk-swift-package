@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "5.8.1"
+let version = "5.8.2"
 
 let package = Package(
     name: "SeonSDK",
@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "SeonSDK",
             url: "https://cdn.seon.io/sdk/ios/SeonSDK/\(version)/SeonSDK-\(version)-xcfw.zip",
-            checksum: "8a1d5ce087fbb3ea5b85b1eaa42e09e97537aff96bc4bccda187a8c4c0fc1d06"
+            checksum: "c2a71a8e32e143d508aac96d920b30baccc7a19039f9e603466ebc8b0300e798"
         )
     ]
 )
